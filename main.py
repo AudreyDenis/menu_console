@@ -2,12 +2,13 @@ from menu import *
 
 if __name__ == "__main__":
     try:
-        choix = int(input('\n\t Voulez vous voir une demo du module (y/n) ? '))
+        choix = input('\n\t Voulez vous voir une demo du module (y/n) ? ')
     except Exception as e:
         print(" Choix incorrect :( ")
         exit(e.with_traceback)
     else: 
         if choix in ['y','Y','oui','yes']:
+            
             def HelloWord():
                 print(" Bonjour tout le monde :) !... ")
     
@@ -157,7 +158,7 @@ if __name__ == "__main__":
 
         else:
             print("Bye")
-            
+
 
 
 

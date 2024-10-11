@@ -1,3 +1,6 @@
+from os import system
+from time import sleep
+
 class Option: #-------------------------------------------------------------Chaque element du menu est une option, une option peut etre un menu ou une fonction 
     
     num_opt = 0 
