@@ -28,7 +28,7 @@ class Menu(Option):
     def __choisit_option(self,page=''):
         try :
             choix = input("\t Entrer votre choix > ").strip()
-            if len(choix) == 0:
+            if not choix:
                 print('\n\t Aucune option selectionnée :( ...' )
                 sleep(1.20)
                 chargement(message='Redirection vers le menu ...',tour=1)
